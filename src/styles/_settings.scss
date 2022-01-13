@@ -1,0 +1,26 @@
+$font-2: "Bebas Neue", cursive;
+$font-1: "Lobster", cursive;
+
+$primary-color: hsl(197, 37%, 24%);
+$secondary-color: hsl(173, 58%, 39%);
+$teriary-color: hsl(43, 74%, 66%);
+$quaternary-color: hsl(27, 87%, 67%);
+$quinary-color: hsl(12, 76%, 61%);
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: $font-2;
+  text-decoration: none;
+  // font-size: 22px;
+}
+h1 {
+  font-size: 52px;
+}
+body {
+  background-color: $primary-color;
+
+}
+.App {
+  text-align: center;
+}

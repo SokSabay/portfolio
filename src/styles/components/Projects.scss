@@ -1,0 +1,47 @@
+.border {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: fit-content;
+  height: 20rem;
+}
+
+.picture {
+  //   position: relative;
+  /*Création des vignettes*/
+  // border: 5px solid $secondary-color;
+  border-radius: 5px;
+  background: rgb(255, 255, 255);
+  overflow: hidden;
+  width: 30rem;
+  height: 20em;
+  margin: 0.5em;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.46); 
+box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.46);
+
+  transition-duration: 0.2s;
+  position: relative;
+  text-align: center;
+  color: white;
+  .text-block {
+    bottom: -170px;
+    width: 100%;
+    height: 10rem;
+    background-color: rgba(0, 0, 0, 0.466);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+  }
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+  &:hover {
+    transform: scale(1.02);
+    .text-block {
+      bottom: 0;
+    }
+  }
+}

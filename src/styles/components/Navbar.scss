@@ -1,0 +1,26 @@
+.sidenav {
+  z-index: 1000;
+   position: fixed; /* Set the navbar to fixed position */
+  top: 0; 
+  width: 100%;
+  background-color: $primary-color;
+  overflow: hidden; /* Disable scroll */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  border-bottom: 2px solid $secondary-color;
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0.5rem;
+  }
+  li > a {
+    transition-duration: 0.3s;
+    color: $secondary-color;
+    font-size: 30px;
+
+    &:hover {
+      color: $teriary-color;
+    }
+  }
+}
