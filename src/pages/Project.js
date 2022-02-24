@@ -12,17 +12,17 @@ const About = () => {
 
       <div className="border">
         <a href="#" className="picture">
-          <img className="" src="./IMG/gt.png" alt="profil "></img>
+          <img className="test" src="./IMG/gt.png" alt="profil "></img>
           <div className="text-block">
             <h4>Nature</h4>
             <p>What a beautiful sunrise</p>
           </div>
         </a>
         <a href="#" className="picture">
-          <img className="" src="./IMG/gt.png" alt="profil"></img>
+          <img className="test" src="./IMG/gt.png" alt="profil"></img>
         </a>
         <a href="#" className="picture">
-          <img className="" src="./IMG/gt.png" alt="profil "></img>
+          <img className="test" src="./IMG/gt.png" alt="profil "></img>
         </a>
         {/* <a className="picture"></a> 
         <a className="picture"></a> */}
