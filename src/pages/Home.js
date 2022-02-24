@@ -6,12 +6,16 @@ const Home = () => {
     <>
       <Navbar />
       <div className="home flex">
-        <h1>Mon Portfolio</h1>
+        <div>
+          <h1>Baptiste Chenot</h1>
+          <h2>Développeur WEB</h2>
+        </div>
+
         <div className="roundedImg">
           <img
             className="profilPicture"
             src="./IMG/baptisteProfil.png"
-            alt="profil picture"
+            alt="profil "
           ></img>
         </div>
       </div>
@@ -24,7 +28,7 @@ const Home = () => {
             sed neque?
           </p>
         </div>
-        <div className="content">
+        <div className="content f2">
           <h2>Lorem ipsum dolor sit amet.</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod sunt
@@ -32,6 +36,15 @@ const Home = () => {
             sed neque?
           </p>
         </div>
+      </div>
+      <div className="icon">
+        <img className="" src="./img/js.png" alt="icône JavaScript" />
+        <img className="" src="./img/css.png" alt="icône JavaScript" />
+        <img className="" src="./img/git.png" alt="icône JavaScript" />
+        <img className="" src="./img/html.png" alt="icône JavaScript" />
+        <img className="" src="./img/mongodb.png" alt="icône JavaScript" />
+        <img className="" src="./img/mysql.png" alt="icône JavaScript" />
+        <img className="" src="./img/nodejs.png" alt="icône JavaScript" />
       </div>
     </>
   );
